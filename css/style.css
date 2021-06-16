@@ -1,0 +1,285 @@
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+  }
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(213, 15, 61, 0.6), rgba(13, 17, 198, 0.69) 100%);
+}
+.font-face
+{
+	font-family: myFirstFont;
+	src: url(sansation_bold.woff);
+	font-weight:bold;
+}
+.rgba {
+    background: -moz-linear-gradient(45deg, rgba(214, 221, 119, 0.6), rgba(241, 131, 232, 0.69) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(238, 247, 159, 0.6), rgba(238, 156, 224, 0.69) 100%);
+    background: linear-gradient(to 45deg, rgba(221, 235, 143, 0.6), rgba(232, 160, 247, 0.69) 100%);
+  }
+  .ziti
+  {
+    font-size: 20px;
+  }
+.top
+{
+  padding-top: 15px;
+}
+/* Required for full background image */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse ,.page-footer{
+  background-color: #563e91 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+  }
+}
+
+.rgba-gradient {
+  background: rgba(35, 7, 77, 0.6);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
+.rgba-gradient1 {
+  background: -moz-linear-gradient(45deg, rgba(161, 42, 70, 0.6), rgba(40, 41, 109, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(129, 33, 56, 0.6), rgba(34, 36, 134, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(153, 28, 57, 0.6), rgba(34, 36, 198, 0.69) 100%);
+}
+.text-color
+{
+  color: rgb(255, 0, 0);
+}
+.rgba-gradient2 {
+  background: -moz-linear-gradient(90deg, rgba(203, 238, 6, 0.6), rgba(105, 222, 238, 0.69) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(227, 252, 8, 0.6), rgba(133, 208, 243, 0.69) 100%);
+  background: linear-gradient(to 90deg, rgba(219, 243, 6, 0.6), rgba(108, 220, 235, 0.69) 100%);
+}
+.top-nav-collapse ,.page-footer{
+  background-color: #913e7c !important;
+}
+.z{
+  font-size: 14px;
+  }
+  
+  .b{
+      font-size: 25px;
+  }
+  html,
+  body,
+  header,
+  #intro {
+      height: 100%;
+  }
+  
+  #intro {
+      background: url("../img/1.jpg")no-repeat center center fixed;
+      -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+      -moz-background-size: cover;    /* 针对Firefox浏览器 */
+      -o-background-size: cover;      /* 针对Operallq */
+      background-size: cover;         /* 通用 */
+  }
+  .top-nav-collapse {
+      background-color: #0cb8ec;
+    }
+    .rgba-gradient {
+      background: -moz-linear-gradient(45deg, rgba(172, 59, 19, 0.904),rgba(198, 96, 13, 0.69) 100%);
+      background: -webkit-linear-gradient(45deg, rgba(116, 8, 67, 0.6), rgba(151, 221, 39, 0.69) 100%);
+      background: linear-gradient(to 45deg, rgba(35, 15, 213, 0.6), rgba(13, 155, 198, 0.69) 100%);
+    }
+    .streak.streak-photo {
+      background-attachment: fixed;
+    }
+    .bjimg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -10;
+      object-fit:inherit;
+     
+    }
+    *{
+      margin: 0;
+      padding: 0;
+  }
+  
+
+  
+  #x1{background-image: url("../img/德善.jpg");}
+  #x2{background-image: url("../img/金正焕.jpg");}
+  #x3{background-image: url("../img/崔泽.jpg");}
+  #x4{background-image: url("../img/成宝拉.jpg");}
+  #x5{background-image: url("../img/善于.jpg");}
+  
+  
+  .main{
+      height: 100%;
+      width: 100%;
+  }
+  
+  .one{
+      height: 600px; /*Here should be 100% value but it doesn't work and i know why*/
+      width: 90%;
+      float: left;
+      overflow: hidden;
+      position: relative;
+      background-position: center;    
+  }
+  
+  img.menuImg{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  
+  /*cards*/
+  .title
+  {
+      padding: 30px 0;
+      text-align: center;
+      font-family: "Arial", sans-serif;
+      font-size: 40px;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+  }
+  
+  .info
+  {
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 50px 30px 0px;
+      font-family: "Arial", sans-serif;
+  }
+  
+  .infoTitle
+  {
+      font-size: 20px;
+      padding: 30px 0;
+  }
+  
+  .infoText
+  {
+      font-size: 16px;
+  }
+  
+  .more
+  {
+      padding: 30px 0 10px;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+
+
+
+
+  .container span {
+    display: inline-block;
+    color: purple;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    animation: side-slide 6s forwards infinite; 
+      animation-iteration-count: 2;
+    transform: translateX(-100vw) scale(0);
+    filter: opacity(0);
+    animation-delay: calc((var(--n) - 1) * 0.1s);
+ 
+  }
+  
+  @keyframes side-slide {
+    15%, 20% {
+      transform: translateX(0.5em) scale(1);
+      color: purple;
+    }
+  
+    24% {
+      transform: translateX(0) scale(1.2);
+      color: cyan;
+    }
+  
+    25%, 75% {
+      transform: translateX(0) scale(1);
+      filter: opacity(1);
+      color: purple;
+    }
+  
+    90%, 100% {
+      transform: translateX(100vw) scale(0);
+      filter: opacity(0);
+    }
+  }
+  
+  .container span:nth-child(1) { --n: 1; }
+  .container span:nth-child(2) { --n: 2; }
+  .container span:nth-child(3) { --n: 3; }
+  .container span:nth-child(4) { --n: 4; }
+  .container span:nth-child(5) { --n: 5; }
+  .container span:nth-child(6) { --n: 6; }
+  .container span:nth-child(7) { --n: 7; }
+  .container span:nth-child(8) { --n: 8; }
+  .container span:nth-child(9) { --n: 9; }
+  .container span:nth-child(10) { --n: 10; }
+  .container span:nth-child(11) { --n: 11; }
+  .container span:nth-child(12) { --n: 12; }
+  .container span:nth-child(13) { --n: 13; }
+  .container span:nth-child(14) { --n: 14; }
+  
+
+
